@@ -65,6 +65,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libdvm.so:system/lib/libdvm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libharfbuzz.so:system/lib/libharfbuzz.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhwui.so:system/lib/libhwui.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnativehelper.so:system/lib/libnativehelper.so \
     $(LOCAL_PATH)/proprietary/system/lib/libMali.so:system/lib/libMali.so \
     $(LOCAL_PATH)/proprietary/system/lib/libMcClient.so:system/lib/libMcClient.so \
     $(LOCAL_PATH)/proprietary/system/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
